@@ -1,0 +1,33 @@
+table.width200,table.rwd_auto 
+{
+    border:1px solid #ccc;
+    width:100%;
+    margin:0 0 50px 0
+}
+.width200 th,.rwd_auto th 
+{
+    background:#ccc;
+    padding:5px;
+    text-align:center;
+}
+.width200 td,.rwd_auto td 
+{
+    border-bottom:1px solid #ccc;padding:5px;text-align:center
+}
+.width200 tr:last-child td, .rwd_auto tr:last-child td
+{
+    border:0
+}
+.rwd 
+{
+    width:100%;overflow:auto;
+}
+.rwd table.rwd_auto 
+{
+    width:auto;min-width:100%
+}
+.rwd_auto th,.rwd_auto td 
+{
+    white-space: nowrap;
+}
+            
